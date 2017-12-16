@@ -26,7 +26,6 @@ public class ClientConnection implements Runnable {
     }
 
     public void run(){
-        System.err.println("***Here***");
         dataIn();
     }
     public void connectToServer(){
